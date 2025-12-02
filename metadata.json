@@ -1,0 +1,5 @@
+{
+  "name": "EduGestão - Sistema Escolar Inteligente",
+  "description": "Sistema de gestão escolar completo (SPA) com CRUD para Alunos, Professores, Escolas e Turmas. Inclui exclusão lógica, exportação CSV e análise de dados via Google Gemini.",
+  "requestFramePermissions": []
+}
