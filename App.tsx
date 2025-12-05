@@ -20,7 +20,7 @@ const SidebarItem: React.FC<{
     <button 
         onClick={onClick}
         className={`w-full flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors rounded-lg mb-1
-        ${active ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-800 hover:text-white'}`}
+        ${active ? 'bg-teal-600 text-white' : 'text-slate-300 hover:bg-slate-800 hover:text-white'}`}
     >
         <Icon size={20} />
         {label}

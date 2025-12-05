@@ -65,7 +65,7 @@ export const ClassesView: React.FC = () => {
 
             <div className="relative">
                 <Search className="absolute left-3 top-3 text-slate-400" size={20} />
-                <input type="text" placeholder="Buscar turma..." className="w-full pl-10 pr-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
+                <input type="text" placeholder="Buscar turma..." className="w-full pl-10 pr-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 outline-none" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
             </div>
 
             <div className="bg-white rounded-lg shadow overflow-hidden">
@@ -79,7 +79,7 @@ export const ClassesView: React.FC = () => {
                                     <td className="px-6 py-4 text-sm text-slate-500">{cls.grade}</td>
                                     <td className="px-6 py-4 text-sm text-slate-500">{getSchoolName(cls.schoolId)}</td>
                                     <td className="px-6 py-4 text-sm text-slate-500 flex gap-2">
-                                        <button onClick={() => handleEdit(cls)} className="text-blue-600"><Edit2 size={18} /></button>
+                                        <button onClick={() => handleEdit(cls)} className="text-teal-600"><Edit2 size={18} /></button>
                                         <button onClick={() => handleDelete(cls.id)} className="text-red-600"><Trash2 size={18} /></button>
                                     </td>
                                 </tr>

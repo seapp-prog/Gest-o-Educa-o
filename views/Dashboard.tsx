@@ -46,7 +46,7 @@ export const DashboardView: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <StatCard title="Escolas" value={counts.schools} icon={SchoolIcon} color="bg-blue-100 text-blue-600" />
+                <StatCard title="Escolas" value={counts.schools} icon={SchoolIcon} color="bg-teal-100 text-teal-600" />
                 <StatCard title="Turmas" value={counts.classes} icon={BookOpen} color="bg-indigo-100 text-indigo-600" />
                 <StatCard title="Professores" value={counts.teachers} icon={GraduationCap} color="bg-purple-100 text-purple-600" />
                 <StatCard title="Alunos" value={counts.students} icon={Users} color="bg-green-100 text-green-600" />

@@ -39,8 +39,8 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
         <div className="min-h-screen bg-slate-100 flex items-center justify-center p-4">
             <div className="bg-white rounded-lg shadow-xl w-full max-w-md p-8 border border-slate-200">
                 <div className="flex flex-col items-center mb-8">
-                    <div className="bg-blue-100 p-4 rounded-full mb-4">
-                        <GraduationCap size={48} className="text-blue-600" />
+                    <div className="bg-teal-100 p-4 rounded-full mb-4">
+                        <GraduationCap size={48} className="text-teal-600" />
                     </div>
                     <h1 className="text-2xl font-bold text-slate-800">EduGestão</h1>
                     <p className="text-slate-500">Sistema de Gestão Escolar</p>

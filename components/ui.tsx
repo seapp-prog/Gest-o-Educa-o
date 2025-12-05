@@ -11,7 +11,7 @@ export const Button: React.FC<ButtonProps> = ({ children, variant = 'primary', i
     const baseStyle = "flex items-center gap-2 px-4 py-2 rounded-md font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed";
     
     const variants = {
-        primary: "bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500",
+        primary: "bg-teal-600 text-white hover:bg-teal-700 focus:ring-teal-500",
         secondary: "bg-slate-200 text-slate-800 hover:bg-slate-300 focus:ring-slate-400",
         danger: "bg-red-600 text-white hover:bg-red-700 focus:ring-red-500",
         ghost: "bg-transparent text-slate-600 hover:bg-slate-100 hover:text-slate-900",
@@ -34,7 +34,7 @@ export const Input: React.FC<InputProps> = ({ label, className = '', ...props })
     <div className="flex flex-col gap-1 mb-4">
         <label className="text-sm font-medium text-slate-700">{label}</label>
         <input 
-            className={`border border-slate-300 rounded-md px-3 py-2 text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none ${className}`}
+            className={`border border-slate-300 rounded-md px-3 py-2 text-sm focus:border-teal-500 focus:ring-1 focus:ring-teal-500 outline-none ${className}`}
             {...props}
         />
     </div>
@@ -50,7 +50,7 @@ export const Select: React.FC<SelectProps> = ({ label, options, className = '', 
     <div className="flex flex-col gap-1 mb-4">
         <label className="text-sm font-medium text-slate-700">{label}</label>
         <select 
-            className={`border border-slate-300 rounded-md px-3 py-2 text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none bg-white ${className}`}
+            className={`border border-slate-300 rounded-md px-3 py-2 text-sm focus:border-teal-500 focus:ring-1 focus:ring-teal-500 outline-none bg-white ${className}`}
             {...props}
         >
             <option value="">Selecione...</option>
